@@ -29,15 +29,21 @@
         }
 
 
-        .top-image img {
+    .top-image {
+    text-align: center;   /* Centers inline elements */
+    margin-bottom: 30px;
+}
+
+.top-image img {
     width: 100%;
-    max-width: 700px;
-     margin: 0 auto;
-     text-align : center;       
+    max-width: 400px;
+    display: block;       /* Needed to center block elements */
+    margin: 0 auto;       /* Perfect centering */
     border-radius: 18px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     transition: 0.3s ease;
 }
+
 
 .top-image img:hover {
     transform: scale(1.03);
